@@ -1,0 +1,5 @@
+ro.product.brand=Infinix
+ro.product.name=H632
+ro.product.device=Infinix-X605_sprout
+ro.build.product=Infinix-X605
+ro.treble.enabled=true

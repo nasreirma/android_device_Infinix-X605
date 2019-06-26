@@ -1,0 +1,2 @@
+PRODUCT_MAKEFILES := \
+	$(LOCAL_DIR)/omni_Infinix-X605.mk
