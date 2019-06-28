@@ -1,5 +1,5 @@
 # Release name
-PRODUCT_RELEASE_NAME := Infinix-X605
+PRODUCT_RELEASE_NAME := X605
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
@@ -12,7 +12,7 @@ PRODUCT_BRAND := Infinix
 PRODUCT_DEVICE := H632
 PRODUCT_MANUFACTURER := INFINIX MOBILITY LIMITED
 PRODUCT_MODEL := Infinix-X605
-PRODUCT_NAME := omni_Infinix-X605
+PRODUCT_NAME := omni_X605
 
 # enable stock zip packages flash
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \

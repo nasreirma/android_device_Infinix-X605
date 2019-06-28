@@ -21,5 +21,5 @@
 # function: add_lunch_combo generic-eng
 
 for var in eng user userdebug; do
-  add_lunch_combo omni_"Infinix-X605"-$var
+  add_lunch_combo omni_X605-$var
 done
