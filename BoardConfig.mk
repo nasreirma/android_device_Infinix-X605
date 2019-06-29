@@ -1,5 +1,5 @@
 # Device path
-LOCAL_PATH := device/Infinix/Infinix-X605
+LOCAL_PATH := device/Infinix/X605
 
 # Architecture
 TARGET_ARCH := arm64

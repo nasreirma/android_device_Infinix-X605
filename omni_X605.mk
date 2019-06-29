@@ -9,7 +9,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := Infinix
-PRODUCT_DEVICE := H632
+PRODUCT_DEVICE := X605
 PRODUCT_MANUFACTURER := INFINIX MOBILITY LIMITED
 PRODUCT_MODEL := Infinix-X605
 PRODUCT_NAME := omni_X605
