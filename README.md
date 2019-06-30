@@ -2,7 +2,7 @@
 
 ## About Device
 
-![Infinix Note 5 Stylus](https://cdn2.gsmarena.com/vv/bigpic/infinix-note5-stylus-n.jpg)
+![Infinix Note 5 Stylus](https://cdn2.gsmarena.com/vv/pics/infinix/infinix-note5-stylus-1.jpg)
 
 ### Specifications
 
