@@ -1,6 +1,11 @@
 # Device path
 LOCAL_PATH := device/Infinix/X605
 
+RECOVERY_VARIANT := twrp
+AB_OTA_UPDATER := true
+BOARD_USES_RECOVERY_AS_BOOT := true
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
@@ -44,6 +49,16 @@ BOARD_FLASH_BLOCK_SIZE := 131072 # BOARD_KERNEL_PAGESIZE * 64
 
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
+TARGET_USES_MKE2FS := true
+
+# Encryption support
+TW_INCLUDE_CRYPTO := true
+TARGET_HW_DISK_ENCRYPTION := true
+TW_INCLUDE_FBE := true
+
+# Encryption
+TARGET_HW_DISK_ENCRYPTION := true
+TW_INCLUDE_CRYPTO := true
 
 # Recovery
 TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
@@ -88,3 +103,13 @@ TW_EXTRA_LANGUAGES := true
 TW_DEFAULT_LANGUAGE := en
 TW_NO_SCREEN_BLANK := true
 TW_NO_BATT_PERCENT := false
+
+AB_OTA_PARTITIONS += \
+    boot \
+    system \
+    vendor
+
+# A/B OTA dexopt package
+PRODUCT_PACKAGES += otapreopt_script
+
+
